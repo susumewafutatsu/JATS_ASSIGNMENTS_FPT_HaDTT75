@@ -1,7 +1,7 @@
 import { loadInitialData, getProductById } from "./api";
 import { renderProducts, renderLoading, renderError, renderSuccess, renderProductDetail, populateCategories } from "./ui";
 import { debounce } from "./utils";
-import { setState, appState } from "./state";
+import { setState } from "./state";
 import type { Product } from "./types";
 
 let allProducts: Product[] = [];
